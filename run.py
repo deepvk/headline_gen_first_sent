@@ -1,9 +1,4 @@
-# from sys import stdin
-
 from nltk.tokenize import sent_tokenize
-#
-# for line in stdin:
-#     print(sent_tokenize(line)[0])
 
 with open('/input.txt') as f:
     texts = [line.strip() for line in f]
